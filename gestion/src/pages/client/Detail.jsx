@@ -1,0 +1,1 @@
+<h2>détail client</h2>
