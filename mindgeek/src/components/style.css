@@ -1,0 +1,16 @@
+nav .fa{
+    display: block;
+    text-align: center;
+    color: #FB8A9B;
+}
+
+a{
+    text-decoration: none;
+    color: #022A37;
+}
+
+header input{
+    border: 0px;
+    background-color: #FB8A9B;
+    text-transform: uppercase;
+}
