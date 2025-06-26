@@ -1,0 +1,6 @@
+[
+    {"id": 1, "prenom": "azzedine", "ville": "Marseille"},
+    {"id": 2, "prenom": "Salah", "ville": "Nogent"},
+    {"id": 3, "prenom": "Fatmanur", "ville": "Nogent"},
+    {"id": 10, "prenom": "Bilal", "ville": "Paris"}
+]

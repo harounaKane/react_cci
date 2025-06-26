@@ -1,0 +1,8 @@
+[
+    {"id": 1, "libelle": "Ecran", "prix": 450, "stock": 20},
+    {"id": 10, "libelle": "PC", "prix": 1450, "stock": 15},
+    {"id": 5, "libelle": "Souris", "prix": 45, "stock": 120},
+    {"id": 7, "libelle": "Tableau", "prix": 75, "stock": 5},
+    {"id": 8, "libelle": "Clavier", "prix": 150, "stock": 0},
+    {"id": 11, "libelle": "Casque", "prix": 175, "stock": 18}
+]
