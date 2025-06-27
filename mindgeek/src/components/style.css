@@ -14,3 +14,19 @@ header input{
     background-color: #FB8A9B;
     text-transform: uppercase;
 }
+
+.tagHome{
+    background-image: url('../assets/background.jpg');
+    padding: 150px 50px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: "Candal";
+}
+
+
+footer{
+    background-color: #002532;
+    color: white;
+}
