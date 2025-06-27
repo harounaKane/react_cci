@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from '../assets/logo.png'
 import "./style.css";
 
 export default function Header(){
+    // recup le nom du l'url
+    const location = useLocation();
+    const banniereHome = location.pathname == "/";
+
     return(
         <>
             <header className="mb-3">
@@ -14,15 +18,18 @@ export default function Header(){
                     <Link to="/contact"><i className="fa fa-envelope"></i>  Contact </Link>
                 </nav>
 
-                <div className="tagHome">
-                    <h2>L'hébergement à prix libre</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolorem architecto sit eum ad? Impedit!
+                {banniereHome &&(
+                        <div className="tagHome">
+                        <h2>L'hébergement à prix libre</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolorem architecto sit eum ad? Impedit!
                     </p>
-                </div>
+                </div>)
+                }
 
                 <input type="text" placeholder="Que cherchez-vous ?" className="w-100" />
             </header>
         </>
     )
 }
+
