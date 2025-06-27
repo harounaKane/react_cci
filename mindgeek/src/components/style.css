@@ -13,6 +13,7 @@ header input{
     border: 0px;
     background-color: #FB8A9B;
     text-transform: uppercase;
+    padding-left: 15px;
 }
 
 .tagHome{
